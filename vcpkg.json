@@ -1,0 +1,10 @@
+{
+  "name" : "todoapp",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "f4a2113a47b7f6b21c077b52ab882a74d8721cde",
+  "dependencies" : [ {
+    "name" : "nlohmann-json",
+    "version>=" : "3.11.2",
+    "$comment" : "    find_package(nlohmann_json CONFIG REQUIRED)\n\n    target_link_libraries(main PRIVATE nlohmann_json::nlohmann_json)\n"
+  } ]
+}
